@@ -180,30 +180,12 @@ text-align: center;
     opacity: 0.9;
     border-radius: 0.4em;
     font-size: 1.2em;
-   
-  body{
-      background: #333 url(../images/cheese2.jpg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      color: #FFFFFF;
-      font-family: 'Asap Condensed', verdana, sans-serif;
-    }
-    
+  
 }
 
 
 /*Small Laptop*/
 @media only screen and (min-width: 920px){
-
-  body{
-    background: #333 url(../images/cheese2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #FFFFFF;
-    font-family: 'Asap Condensed', verdana, sans-serif;
-  }
 
   #menu {
     text-shadow: 1px 1px 1px #000;
@@ -225,14 +207,7 @@ text-align: center;
 
 /*Desktop*/
 @media only screen and (min-width: 1280px){
-  body{
-    background: #333 url(../images/cheese2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #FFFFFF;
-    font-family: 'Asap Condensed', verdana, sans-serif;
-  }
+ 
 
   #menu {
     text-shadow: 1px 1px 1px #000;
