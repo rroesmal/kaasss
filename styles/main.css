@@ -69,8 +69,8 @@ h2, h3 {
   border-radius: 0.2em;
   font-family: 'Asap Condensed', verdana, sans-serif;
   text-shadow: 1px 1px 1px #000;
-
 }
+
 h3 {
   font-size: 0.8em; 
   text-shadow: 1px 1px 1px #000;
@@ -88,8 +88,7 @@ h3 {
     background-color: #000000;
     opacity: 0.9;
     border-radius: 0.4em;
-    font-size: 1.2em;
-
+    font-size: 2.0em;
 }
 
 .main {
@@ -175,13 +174,26 @@ text-align: center;
 }
 
 @media only screen and (min-width: 601px){
-  
+  #menu {
+    text-shadow: 1px 1px 1px #000;
+    background-color: #000000;
+    opacity: 0.9;
+    border-radius: 0.4em;
+    font-size: 1.2em;
+   
+    
 }
 
 
 /*Small Laptop*/
 @media only screen and (min-width: 920px){
- 
+  #menu {
+    text-shadow: 1px 1px 1px #000;
+    background-color: #000000;
+    opacity: 0.9;
+    border-radius: 0.4em;
+    font-size: 1.2em;
+}
 
   .main {
     background-color: #000000;
@@ -195,13 +207,16 @@ text-align: center;
 
 /*Desktop*/
 @media only screen and (min-width: 1280px){
-  
+  #menu {
+    text-shadow: 1px 1px 1px #000;
+    background-color: #000000;
+    opacity: 0.9;
+    border-radius: 0.4em;
+    font-size: 1.2em;
+}
 
   .main {
     height: 940px;
   }
-
-
-
 
 }
