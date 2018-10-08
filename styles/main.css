@@ -1,0 +1,149 @@
+html {
+	box-sizing: border-box;
+}
+
+*, 
+*:before,
+*:after{
+	box-sizing: inherit;
+}
+
+body{
+  background: #333 url(../images/cheese2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	color: #FFFFFF;
+  font-family: 'Asap Condensed', verdana, sans-serif;
+}
+
+p{
+  
+
+}
+
+
+h1 {
+  text-align: center;
+  font-family: 'Asap Condensed', verdana, sans-serif;
+  text-shadow: 1px 1px 1px #000;
+}
+
+h2, h3 {
+  font-size: 1.3em;
+  font-weight: normal;
+  border-radius: 0.2em;
+  font-family: 'Asap Condensed', verdana, sans-serif;
+  text-shadow: 1px 1px 1px #000;
+
+}
+h3 {
+  font-size: 1.0em; 
+}
+
+.header, .main, .ad1, .ad2, .foot1, .foot2{
+  padding: 0.2em 1em;
+}
+
+.header {
+}
+
+#menu {
+    text-shadow: 1px 1px 1px #000;
+    background-color: #000000;
+    opacity: 0.9;
+    border-radius: 0.4em;
+}
+
+.main {
+  background-color: #000000;
+  opacity: 0.9;
+  border-radius: 0.4em;
+  border-color: #FFFFFF;
+}
+
+.ad1 {
+  background-color: #000000;
+  opacity: 0.9;
+  border-radius: 0.4em;
+}
+
+.ad2 {
+  background-color: #EBAE00;
+  opacity: 0.9;
+  border-radius: 0.4em;
+  background-image: url('dots.svg');
+  
+}
+
+.foot1 {
+  background-color: #000000;
+  opacity: 0.9;
+  border-radius: 0.4em;
+}
+
+
+.foot2 {
+    background-color: #EBAE00;
+    opacity: 0.9;
+    border-radius: 0.4em;
+}
+
+img {
+  width: 100%;
+  margin: 0;
+}
+
+footer {
+
+}
+
+
+.fbpost{
+width:100%;
+margin:0;
+
+}
+
+.centertext {
+  text-align: center;
+}
+
+.centersocialmedia{
+text-align: center;
+}
+
+.fab{
+  font-size: 30px;
+  padding: 0.2em;
+}
+
+.fab:hover{
+  opacity: 0.5;
+  transition:all 0.5s ease;
+}
+
+.fas{
+  font-size: 30px;
+  padding: 0.2em;
+}
+
+.fas:hover{
+  opacity: 0.5;
+  transition:all 0.5s ease;
+}
+
+.kaaskleur{
+  color: #EBAE00;
+}
+
+@media only screen and (min-width: 601px){
+  q {
+    width: 6em;
+    float: right;
+    font-size: 1.4em;
+    padding: 0.5em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+}
