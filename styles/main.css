@@ -17,20 +17,54 @@ body{
   font-family: 'Asap Condensed', verdana, sans-serif;
 }
 
+nav ul li a:hover {
+  color: rgb(253, 213, 101);
+  transition:all 0.5s ease;
+}
+
+nav > ul > li > a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+main a:hover{
+color: rgb(255, 255, 255);
+transition:all 0.5s ease;
+}
+
+.ad1 a:hover{
+  color: rgb(255, 255, 255);
+  transition:all 0.5s ease;
+  }
+
+.selected{
+  color: #EBAE00;
+}
+
+
+.menutoggle{
+    color:#EBAE00;
+}
+
 p{
-  
+  font-size: 1.0em;
 
 }
 
+a{
+  font-size: 1.0em;
+  color: #EBAE00;
+  }
 
 h1 {
   text-align: center;
   font-family: 'Asap Condensed', verdana, sans-serif;
   text-shadow: 1px 1px 1px #000;
+  font-size: 2.2em;
 }
 
 h2, h3 {
-  font-size: 1.3em;
+  font-size: 1.8em;
   font-weight: normal;
   border-radius: 0.2em;
   font-family: 'Asap Condensed', verdana, sans-serif;
@@ -38,7 +72,8 @@ h2, h3 {
 
 }
 h3 {
-  font-size: 1.0em; 
+  font-size: 0.8em; 
+  text-shadow: 1px 1px 1px #000;
 }
 
 .header, .main, .ad1, .ad2, .foot1, .foot2{
@@ -53,6 +88,8 @@ h3 {
     background-color: #000000;
     opacity: 0.9;
     border-radius: 0.4em;
+    font-size: 1.2em;
+
 }
 
 .main {
@@ -138,12 +175,33 @@ text-align: center;
 }
 
 @media only screen and (min-width: 601px){
-  q {
-    width: 6em;
-    float: right;
-    font-size: 1.4em;
-    padding: 0.5em;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+  
+}
+
+
+/*Small Laptop*/
+@media only screen and (min-width: 920px){
+ 
+
+  .main {
+    background-color: #000000;
+    opacity: 0.9;
+    border-radius: 0.4em;
+    border-color: #FFFFFF;
+    height: 100%;
   }
+}
+
+
+/*Desktop*/
+@media only screen and (min-width: 1280px){
+  
+
+  .main {
+    height: 940px;
+  }
+
+
+
+
 }

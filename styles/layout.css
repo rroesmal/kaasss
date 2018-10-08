@@ -88,6 +88,17 @@ nav > ul > li > a {
   text-decoration: none;
 }
 
+main a:hover{
+color: rgb(255, 255, 255);
+transition:all 0.5s ease;
+}
+
+
+.ad1 a:hover{
+  color: rgb(255, 255, 255);
+  transition:all 0.5s ease;
+  }
+
 .selected{
   color: #EBAE00;
 }
@@ -172,6 +183,21 @@ nav > ul > li > a {
   nav ul li {
     padding: 0.5em;
   }
+
+  .iframe-container {
+    overflow: hidden;
+    padding-top: 180%;
+    position: relative;
+  }
+  
+  .iframe-container iframe {
+     border: 0;
+     height: 100%;
+     left: 0;
+     position: absolute;
+     top: 0;
+     width: 100%;
+  }
 }
 
 
@@ -195,7 +221,7 @@ nav > ul > li > a {
 
   .iframe-container {
     overflow: hidden;
-    padding-top: 170%;
+    padding-top: 100%;
     position: relative;
   }
   
